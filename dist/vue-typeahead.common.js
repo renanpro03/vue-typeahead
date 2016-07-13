@@ -73,9 +73,9 @@ exports.default = {
         return _vue.util.warn('You need to set the `src` property', this);
       }
 
-      if (this.src.substr(-1) !== '/') {
-        this.src += '/';
-      }
+      //if (this.src.substr(-1) !== '/') {
+      //  this.src += '/';
+      //}
 
       var src = this.queryParamName ? this.src : this.src + this.query;
 
